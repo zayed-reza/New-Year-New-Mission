@@ -80,3 +80,34 @@
     height: 600px;
     margin: 50px 140px;
 }
+
+.party-info {
+    display: flex;
+    gap: 40px;
+    padding: 126px;
+}
+
+.party-title {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.party-description {
+    color: #ffffffcc;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.party-btn {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+}
