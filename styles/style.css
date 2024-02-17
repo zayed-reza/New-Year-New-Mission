@@ -1,0 +1,82 @@
+/* Shared styles */
+* {
+    margin: 0;
+}
+
+.header {
+
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-image: url(../resources/Banner-Image.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+}
+
+.banner {
+    padding: 170px 340px;
+    text-align: center;
+}
+
+.banner-semi-title {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Offer section styles */
+
+.offer {
+    margin: 120px 399px;
+    text-align: center;
+}
+
+.offer-title {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.offer-details {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.offer-category {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 48px;
+
+}
+
+
+/* party section styles */
+
+.party {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+}
