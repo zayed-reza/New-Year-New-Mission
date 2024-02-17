@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* header part styles */
+
 .header {
 
     border-radius: 16px;
@@ -11,7 +13,7 @@
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
-    margin: 50px 140px;
+    margin:50px 140px;
 }
 
 .banner {
@@ -37,7 +39,7 @@
 /* Offer section styles */
 
 .offer {
-    margin: 120px 399px;
+    margin:120px 399px;
     text-align: center;
 }
 
@@ -78,7 +80,7 @@
     background-image: url(../resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
-    margin: 50px 140px;
+    margin: 120px 140px;
 }
 
 .party-info {
@@ -110,4 +112,245 @@
     font-size: 20px;
     font-weight: 700;
     background: none;
+}
+
+/* Schedule section styles */
+.schedule {
+    width: 1320px;
+    height: 482px;
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+}
+
+.schedule-info {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 215px 385px;
+}
+
+.schedule-info span {
+    color: #FF0000;
+}
+
+.schedule-info button {
+    border: none;
+    margin-top: 104px;
+    border-radius: 8px;
+    background: #ff0000;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px;
+}
+
+/* New offer section styles */
+.new-offer {
+    width: 1320px;
+    height: 463px;
+    margin: 120px 140px;
+}
+
+.new-offer-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.new-offer-semi-tilte {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.new-offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 22px;
+
+}
+
+.new-offer-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.big-new-offer-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.big-new-offer-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 42px;
+
+}
+
+.circle {
+    border-radius: 360px;
+    box-sizing: border-box;
+    border: 15px solid #ff0000;
+}
+
+.circle img {
+    padding: 30px;
+}
+
+/* portfolio section styles */
+.portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 120px 140px;
+}
+
+.portfolio-semi-title {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.portfolio-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.portfolio-details img {
+    width: 424px;
+    height: 450px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.portfolio-details img:hover {
+    transform: scale(1.1);
+    transition: transform 2s ease;
+}
+
+
+/* Subscribe section styles */
+.subscribe {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 120px 140px;
+}
+
+.subscribe-details {
+    text-align: center;
+    padding: 80px 212px;
+}
+
+.subscribe-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 46px;
+    margin-bottom: 22px;
+
+}
+
+.subscribe-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+
+}
+
+.subscribe-details form {
+    display: flex;
+    width: 650px;
+    height: 72px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin: 0px 116px;
+}
+
+.subscribe-details form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.subscribe-details form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer part styles */
+footer {
+    background: #070211;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+
+.contact-details {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-info{
+    display: flex;
+}
+
+.social-link {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.social-link img {
+    margin-right: 20px;
 }
